@@ -1,1 +1,6 @@
-this is just a test style of file nothing here.
+<!DOCTYPE html>
+<html>
+<body style="background:#fff; color:#111; font-family:monospace;">
+001
+</body>
+</html>

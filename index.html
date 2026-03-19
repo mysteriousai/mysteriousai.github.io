@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mysterious</title>
+<title>...</title>
 
 <style>
 body {
-  margin: 0;
   background: #ffffff;
-  color: #111;
+  color: #f5f5f5;
   font-family: monospace;
 }
 
-/* center text */
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* container = your "bone frame" */
+.container {
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+  width: 420px;
+  margin: 40px;
 }
 
-/* ghost trigger */
-.ghost-trigger {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 20px;
-  height: 20px;
-  background: red;
+/* links */
+a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dcdcdc;
+}
+
+/* subtle spacing */
+pre {
+  line-height: 1.5;
 }
 </style>
 
@@ -34,11 +38,47 @@ body {
 
 <body>
 
-<div class="center">
-  Mysterious
+<div class="container">
+<pre>
+Mysterious/
+ ├─ archive/
+ │   ├─ <a href="/art/A-001.html">A-001.html</a>
+ │   ├─ <a href="/art/A-002.html">A-002.html</a>
+ │   └─ <a href="/art/A-003.html">A-003.html</a>
+ │
+ ├─ records/
+ │   ├─ <a href="/comics/C-001.html">C-001.html</a>
+ │   ├─ <a href="/comics/C-002.html">C-002.html</a>
+ │   └─ <a href="/comics/C-003.html">C-003.html</a>
+ │
+ ├─ source/
+ │   ├─ workflows/
+ │   │   └─ <a href="/models/workflows/W-001.html">W-001.html</a>
+ │   ├─ checkpoints/
+ │   │   └─ <a href="/models/checkpoints/CK-001.html">CK-001.html</a>
+ │   └─ notes.txt
+ │
+ ├─ constructs/
+ │   ├─ <a href="/legal/plain.html">plain.html</a>
+ │   ├─ <a href="/legal/formal.html">formal.html</a>
+ │   └─ <a href="/legal/absurd.html">absurd.html</a>
+ │
+ ├─ network/
+ │   ├─ <a href="https://x.com" target="_blank">x.log</a>
+ │   ├─ <a href="https://facebook.com" target="_blank">facebook.log</a>
+ │   └─ <a href="https://globalcomix.com" target="_blank">comics.log</a>
+ │
+ ├─ fragments/
+ │   ├─ unknown_01
+ │   ├─ unknown_02
+ │   └─ ???.dat
+ │
+ └─ hidden/
+     ├─ <a href="/hidden/001.html">001.html</a>
+     ├─ <a href="/hidden/002.html">002.html</a>
+     └─ null
+</pre>
 </div>
-
-<a href="/hidden/index.html" class="ghost-trigger"></a>
 
 </body>
 </html>
